@@ -58,7 +58,8 @@ class Archive7z
      */
     protected $cliLinux = array(
         '/usr/bin/7z',
-        '/usr/bin/7za' // CentOS 7 with package p7zip
+        '/usr/bin/7za', // CentOS 7 with package p7zip
+        '/usr/bin/7zr' // Debian
     );
     /**
      * @var string
